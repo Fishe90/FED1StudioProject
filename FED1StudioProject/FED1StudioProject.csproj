@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\custom.css" />
+    <Content Include="images\Background_05.jpg" />
+    <Content Include="images\Logo.JPG" />
+    <Content Include="images\Logo_NO_BACKGROUND.png" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="classes.html" />
@@ -86,8 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
