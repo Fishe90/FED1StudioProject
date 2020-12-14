@@ -71,6 +71,9 @@
     <Content Include="images\Background_05.jpg" />
     <Content Include="images\blank_profile.png" />
     <Content Include="images\Logo_NO_BACKGROUND.png" />
+    <Content Include="resources\administration.html" />
+    <Content Include="resources\instructors.html" />
+    <Content Include="resources\sales.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="classes.html" />

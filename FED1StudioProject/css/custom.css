@@ -330,6 +330,48 @@ tbody {
 
 /*#endregion*/
 
+/*#region Team Page*/
+
+.directory {
+    margin: auto;
+}
+
+.directory ul {
+    text-align: left;
+}
+
+.directory li {
+}
+
+.teamInfo {
+    display: inline-block;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.profilePic {
+    padding: 1em;
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.teamInfo p {
+    margin-left: 1em;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+.directory {
+    float: right;
+    width: 23%;
+    display: block;
+}
+
+/*#endregion*/
+
 /*#endregion*/
 
 /*#endregion*/
