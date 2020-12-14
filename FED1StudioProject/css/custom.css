@@ -257,12 +257,80 @@ footer {
 
 /*#region Home Page*/
 
+.homePage {
+    margin: 5em 5em;
+    display: inline-block;
+}
 
+.homePage img {
+    padding: 1em;
+    float: left;
+}
+
+.homePage h3 {
+    font-family: Verdana;
+    font-size: 2em;
+    color: white;
+}
+
+.homePage p {
+    font-family: Verdana;
+    color: white;
+}
+
+.chooseUs {
+    margin: 5em 5em;
+    display: inline-block;
+}
+
+.chooseUs img {
+    padding: 1em;
+    float: left;
+}
+
+.chooseUs h3 {
+    font-family: Verdana;
+    font-size: 2em;
+    color: white;
+}
+
+.chooseUs p {
+    font-family: Verdana;
+    color: white;
+}
+
+.chooseUs h2 {
+    margin: auto;
+    font-family: Verdana;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.rightFloat {
+    margin: 5em 5em;
+    display: inline-block;
+}
+
+.rightFloat img {
+    padding: 1em;
+    float: right;
+}
+
+.rightFloat h3 {
+    font-family: Verdana;
+    font-size: 2em;
+    color: white;
+}
+
+.rightFloat p {
+    font-family: Verdana;
+    color: white;
+}
 
 /*#endregion*/
 
 /*#region Classes Page*/
-
 #classesPos h3 {
     padding-left: 0.5em;
     text-align: left;
