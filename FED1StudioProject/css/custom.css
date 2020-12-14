@@ -255,6 +255,12 @@ footer {
 
 /*#region CSS FOR INDIVIDUAL PAGES*/
 
+/*#region Home Page*/
+
+
+
+/*#endregion*/
+
 /*#region Classes Page*/
 
 #classesPos h3 {
@@ -405,6 +411,14 @@ tbody {
     margin-left: 1em;
     padding: 0.5em;
     font-size: 2em;
+}
+
+/*#endregion*/
+
+/*#region Contact Page*/
+
+.contactMe {
+    text-align: center;
 }
 
 /*#endregion*/
