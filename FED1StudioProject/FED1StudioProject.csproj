@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="css\custom.css" />
     <Content Include="images\Background_05.jpg" />
-    <Content Include="images\Logo.JPG" />
+    <Content Include="images\blank_profile.png" />
     <Content Include="images\Logo_NO_BACKGROUND.png" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
