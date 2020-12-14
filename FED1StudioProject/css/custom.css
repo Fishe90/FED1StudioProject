@@ -188,6 +188,13 @@ main {
 }
 
 .allPage h2 {
+    background-image: url('../images/Logo_NO_BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-position-y: 2em;
+    margin: auto;
+    padding-top: 2em;
+    height: 3em;
+    background-position: center;
     text-align: center;
     color: white;
     font-family: Verdana;
@@ -199,10 +206,12 @@ main {
 /*#region Footer*/
 
 footer {
-    border: solid white;
+    border-top: solid white;
+    border-bottom: solid white;
     margin: 0 10em;
     position: relative;
     color: white;
+    background-image: linear-gradient(0deg, #181818, transparent,#181818);
     text-align: left;
     padding: 2em;
 }
@@ -332,27 +341,61 @@ tbody {
 
 /*#region Team Page*/
 
-.directory {
+/*#region DROP-DOWN*/
+
+.dropbtn {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    color: darkgray;
+    font-family: Broadway;
+    font-size: 25px;
+}
+
+.dropdown {
+    color: black;
+    background-color: transparent;
+}
+
+.dropdown-content {
+    background-image: linear-gradient(0deg, #181818, transparent,#181818);
     margin: auto;
+    bottom: 11em;
+    padding: 1em;
+    border-top: solid white;
+    border-bottom: solid white;
+    color: black;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.directory ul {
-    text-align: left;
+.dropdown-content li {
+    background-color: darkgray;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.directory li {
+.dropdown:hover .dropdown-content {
+    color: black;
+    display: block;
 }
 
-.teamInfo {
-    display: inline-block;
-    width: 75%;
-    box-sizing: border-box;
+.dropdown:hover .dropbtn {
+    color: black;
+
 }
+
+/*#endregion*/
 
 .profilePic {
+    box-shadow: -1em -1em lightblue;
     padding: 1em;
     float: left;
-    display: block;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -362,12 +405,6 @@ tbody {
     margin-left: 1em;
     padding: 0.5em;
     font-size: 2em;
-}
-
-.directory {
-    float: right;
-    width: 23%;
-    display: block;
 }
 
 /*#endregion*/
