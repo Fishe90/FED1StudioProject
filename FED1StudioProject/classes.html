@@ -16,30 +16,30 @@
     <header>
         <div class="headerLogo">
             <img src="images/Logo_NO_BACKGROUND.png" />
-            <h1>The Biz</h1>
-            <p>"Our Fancy Slogan"</p>
-
-            <!-- Social Media -->
-            <a href="https://www.facebook.com/dillon.fisher.37" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://www.instagram.com/dill_fisher/" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://twitter.com/DillonF38580448" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.pinterest.com/dillonfisher37/_saved/" class="fa fa-pinterest" target="_blank"></a>
+            <h1>Summit University</h1>
+            <p>"Education of Today to improve Tomorrow"</p>
         </div>
+        <!-- Social Media -->
+        <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
     </header>
 
     <nav>
         <ul>
             <li><a href="/index.html">HOME</a></li>
-            <li><a style="color: white; border-left: solid white; border-right: solid white; background-image: radial-gradient(transparent, transparent, transparent, transparent, transparent, transparent, white);" href="/classes.html">CLASSES</a></li>
+            <li><a style="color: white; border-left: solid white; border-right: solid white;" href="/classes.html">CLASSES</a></li>
             <li>
-                <div class="dropdown"><a href="/team.html">TEAM</a>
+                <a href="/team.html">TEAM</a>
+                <!--<div class="dropdown">
+                    <a href="/team.html">TEAM</a>
                     <div class="dropdown-content">
                         <a href="/team.html">Leadership</a>
                         <a href="/resources/sales.html">Sales</a>
                         <a href="/resources/administration.html">Administration</a>
                         <a href="/resources/instructors.html">Instructors</a>
                     </div>
-                </div>
+                </div>-->
             </li>
             <li><a href="/contact.html">CONTACT</a></li>
         </ul>
@@ -54,17 +54,17 @@
                 <ul>
                     <li width="10px" height="10px">
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">English</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                     <li>
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">Math</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                     <li>
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">Science</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                 </ul>
@@ -72,17 +72,17 @@
                 <ul>
                     <li>
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">Social Studies</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                     <li>
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">Foreign Language</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                     <li>
                         <img src="images/blank_profile.png" alt="Sue me. I DARE YOU!" />
-                        <h3>Class Topic</h3>
+                        <h3><a href="#">History</a></h3>
                         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </li>
                 </ul>
@@ -91,7 +91,7 @@
             <article id="classesTab">
                 <p>Note: Should be one for each subject</p>
                 <h2>[Subject] - Class List</h2>
-                <table>
+                <table id="comeHere">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -154,11 +154,45 @@
 
     <footer>
         <div id="footerLogo">
-            &copy; Copyright 2020 Dillon Fisher
-            <a href="https://www.facebook.com/dillon.fisher.37" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/DillonF38580448" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.instagram.com/dill_fisher/" class="fa fa-instagram" target="_blank"></a>
+            <p style="padding-top: 1em; position: page; text-align: center">&copy; Copyright 2020 Dillon Fisher</p>
+            <div class="footerSocial">
+                <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
+            </div>
         </div>
     </footer>
+
+    <!-- Class List Side Nave - Button -->
+    <div id="classPg-btn" class="button" onclick="openClassNav()">
+        <span class="vertical-text">CLASS - SCHEDULE</span>
+    </div>
+
+    <!-- Class List Side Nav - Container for the links -->
+    <div class="sidenav" id="classPg-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">
+            &times;
+        </a>
+        <a href="#comeHere">English</a>
+        <a href="#comeHere">Math</a>
+        <a href="#comeHere">Science</a>
+        <a href="#comeHere">Social Studies</a>
+        <a href="#comeHere">Foreign Language</a>
+        <a href="#comeHere">History</a>
+
+    </div>
+
+    <script type="text/javascript">
+        function openClassNav() {
+            document.getElementById('classPg-btn').style.display = "none";
+            document.getElementById('classPg-nav').style.width = "250px";
+        }
+
+        function closeClassNav() {
+            document.getElementById('classPg-btn').style.display = "block";
+            document.getElementById('classPg-nav').style.width = "0";
+        }
+    </script>
+
 </body>
 </html>
