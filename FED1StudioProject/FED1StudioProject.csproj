@@ -67,14 +67,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="OriginalContact.html" />
+    <Content Include="OriginalClasses.html" />
     <Content Include="css\custom.css" />
+    <Content Include="css\shoeshine.css" />
     <Content Include="favicon.ico" />
+    <Content Include="images\01_English.JPG" />
+    <Content Include="images\01_Profile.jpg" />
+    <Content Include="images\02_Math.JPG" />
+    <Content Include="images\02_Profile.JPG" />
+    <Content Include="images\03_Profile.JPG" />
+    <Content Include="images\03_Science.JPG" />
+    <Content Include="images\04_Profile.JPG" />
+    <Content Include="images\04_SocialStudies.JPG" />
+    <Content Include="images\05_ForeignLanguage.JPG" />
+    <Content Include="images\05_Profile.JPG" />
+    <Content Include="images\06_History.JPG" />
+    <Content Include="images\06_Profile.JPG" />
+    <Content Include="images\07_Profile.JPG" />
+    <Content Include="images\08_Profile.JPG" />
+    <Content Include="images\09_Profile.JPG" />
+    <Content Include="images\10_Profile.JPG" />
+    <Content Include="images\11_Profile.JPG" />
+    <Content Include="images\12_Profile.JPG" />
     <Content Include="images\Background_05.jpg" />
     <Content Include="images\blank_profile.png" />
+    <Content Include="images\Centriq_Building.JPG" />
+    <Content Include="images\Good_Grades.JPG" />
     <Content Include="images\Logo_NO_BACKGROUND.png" />
+    <Content Include="OriginalIndex.html" />
+    <Content Include="js\JavaScript.js" />
+    <Content Include="resources\OriginalInstructors.html" />
+    <Content Include="resources\OriginalAdministration.html" />
     <Content Include="resources\administration.html" />
     <Content Include="resources\instructors.html" />
+    <Content Include="resources\OriginalSales.html" />
     <Content Include="resources\sales.html" />
+    <Content Include="OriginalTeam.html" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="classes.html" />
@@ -93,9 +122,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -9,66 +9,72 @@
 
     <!-- Below is a link to Social Media Icons on FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/shoeshine.css" rel="stylesheet" />
 
 </head>
 <body>
-    <header>
-        <div class="headerLogo">
-            <img src="images/Logo_NO_BACKGROUND.png" />
-            <h1>Summit University</h1>
-            <p>"Education of Today to improve Tomorrow"</p>
-        </div>
-
+    <!-- Header -->
+    <header class="head-md">
         <!-- Social Media -->
-        <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
-
-        <!--<a href="#" class="fa fa-instagram" target="_blank"></a>-->
-        <!--<a href="#" class="fa fa-pinterest" target="_blank"></a>-->
-
+        <div class="block-lg go-right">
+            <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
+        </div>
+        <div class="go-left">
+            <img src="images/Logo_NO_BACKGROUND.png" />
+        </div>
+        <div class="block-md-6">
+            <h1>Summit University</h1> <!--style="border: 2px solid black"-->
+            <p>"Education of Today for the improvement of Tomorrow"</p>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/classes.html">CLASSES</a></li>
-            <li>
-                <a href="/team.html">TEAM</a>
-                <!--<div class="dropdown"><a href="/team.html">TEAM</a>
-                    <div class="dropdown-content">
-                        <a href="/team.html">Leadership</a>
-                        <a href="/resources/sales.html">Sales</a>
-                        <a href="/resources/administration.html">Administration</a>
-                        <a href="/resources/instructors.html">Instructors</a>
-                    </div>
-                </div>-->
-            </li>
-            <li><a style="color: white; border-left: solid white; border-right: solid white;" href="/contact.html">CONTACT</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav id="navbar" class="nav-md left">
+        <a href="index.html">HOME</a>
+        <a href="classes.html">CLASSES</a>
+        <a href="team.html">TEAM</a>
+        <a href="contact.html" class="active">CONTACT</a>
     </nav>
 
+    <!-- Main Content -->
     <main>
         <section class="allPage">
-            <article class="contactMe">
-                <h2>Contact Us</h2>
-                <p>Phone: <a href="tel:816-857-5309">816-857-5309</a></p>
-                <p>Email: <a href="mailto:learning@smallbiz.com" subject="Message from Summit University">learning@smallbiz.com</a></p>
-                <p>Address: <a href="#">1740 W 92nd Street<br />Kansas City, MO 64118</a></p>
-            </article>
+            <h2>
+                Contact
+            </h2>
+            <div class="block-md-6" margin: auto">
+                <section id="contact-gone" class="block-md-6 go-left">
+                    <ul class="left">
+                        <li>Phone:</li>
+                        <li>Email:</li>
+                        <li>Address:</li>
+                    </ul>
+                </section>
+                <div class="contactStyle">
+                    <section class="block-md-6 go-right">
+                        <ul class="left">
+                            <li><a href="tel:816-857-5309">816-857-5309</a></li>
+                            <li><a href="mailto:learning@smallbiz.com" subject="Message from Summit University">learning@smallbiz.com</a></li>
+                            <li><a href="#">1740 W 92nd Street Kansas City, MO 64118</a></li>
+                        </ul>
+                    </section>
+                </div>                
+            </div>
         </section>
     </main>
 
-    <footer>
-        <div id="footerLogo">
-            <p style="padding-top: 1em; position: page; text-align: center">&copy; Copyright 2020 Dillon Fisher</p>
-            <div class="footerSocial">
-                <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
-                <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
-            </div>
+    <!-- Footer Content -->
+    <footer class="footer-sm">
+        <!-- Social Media -->
+        <div class="block-lg go-right">
+            <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
         </div>
+        <p style="text-align: center; display:block; padding-left: 10%">&copy; Copyright 2020 Dillon Fisher</p>  <!--style="padding-top: 1em; position: page; text-align: center"-->
     </footer>
 </body>
 </html>
+<script src="js/JavaScript.js"></script>

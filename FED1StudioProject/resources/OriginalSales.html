@@ -9,87 +9,70 @@
 
     <!-- Below is a link to Social Media Icons on FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../css/shoeshine.css" rel="stylesheet" />
+    <link href="/css/custom.css" rel="stylesheet" />
+
 </head>
 <body>
     <!-- Header -->
-    <header class="head-md">
+    <header>
+        <img src="images/Logo_NO_BACKGROUND.png" style="float: left" />
+        <h1>Summit University</h1>
+        <p>"Education of Today to improve Tomorrow"</p>
+
         <!-- Social Media -->
-        <div class="block-lg go-right">
+        <div class="socialHeader">
             <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
             <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
         </div>
-        <div class="go-left">
-            <img src="../images/Logo_NO_BACKGROUND.png" />
-        </div>
-        <div class="block-md-6">
-            <h1>Summit University</h1> <!--style="border: 2px solid black"-->
-            <p>"Education of Today for the improvement of Tomorrow"</p>
-        </div>
     </header>
 
     <!-- Navigation -->
-    <nav id="navbar" class="nav-md left">
-        <a href="../index.html">HOME</a>
-        <a href="../classes.html">CLASSES</a>
-        <a href="../team.html" class="active">TEAM</a>
-        <a href="../contact.html">CONTACT</a>
+    <nav id="navbar">
+        <ul>
+            <li><a href="/index.html">HOME</a></li> <!--style="color: white; border-left: solid white; border-right: solid white;"-->
+            <li><a href="/classes.html">CLASSES</a></li>
+            <li class="active"><a href="/team.html">TEAM</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+        </ul>
     </nav>
 
-    <main class="compress-md">
-        <section>
+    <main>
+        <section class="allPage">
             <aside id="htmlRightColumn">
                 <h2>Departments</h2>
                 <ul class="asideList">
                     <li>
-                        <a href="../team.html" style="color:white; text-decoration: none;">Leaders</a>
+                        <a href="/team.html" style="color:white; text-decoration: none;">Leaders</a>
                     </li>
                     <li>
-                        <a href="../resources/sales.html" style="color:white; text-decoration: none;">Sales</a>
+                        <a href="/resources/sales.html" style="color:white; text-decoration: none;">Sales</a>
                     </li>
                     <li>
-                        <a href="../resources/administration.html" style="color:white; text-decoration: none;">Administration</a>
+                        <a href="/resources/administration.html" style="color:white; text-decoration: none;">Administration</a>
                     </li>
                     <li>
-                        <a href="../resources/instructors.html" style="color:white; text-decoration: none;">Instructors</a>
-                    </li>
-                </ul>
-            </aside>
-            <aside id="asideMenu-collapse">
-                <h2>Departments</h2>
-                <ul>
-                    <li>
-                        <a href="../team.html">Leaders</a>
-                    </li>
-                    <li>
-                        <a href="../resources/sales.html">Sales</a>
-                    </li>
-                    <li>
-                        <a href="../resources/administration.html">Administration</a>
-                    </li>
-                    <li>
-                        <a href="../resources/instructors.html">Instructors</a>
+                        <a href="/resources/instructors.html" style="color:white; text-decoration: none;">Instructors</a>
                     </li>
                 </ul>
             </aside>
             <article class="teamInfo">
                 <h2>Sales</h2>
                 <img class="profilePic" src="../images/09_Profile.jpg" style="object-fit: cover" />
-                <h3>Sales Lead</h3>
                 <p>
+                    Sales Lead:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
                 <br /><br /><br /><br /><br />
                 <img class="profilePic" src="../images/08_Profile.jpg" style="object-fit: cover" />
-                <h3>Sales Representative</h3>
                 <p>
+                    Sales Representative:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
                 <br /><br /><br /><br /><br />
                 <img class="profilePic" src="../images/04_Profile.jpg" style="object-fit: cover" />
-                <h3>Sales Representative</h3>
                 <p>
+                    Sales Representative:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
             </article>
@@ -98,14 +81,15 @@
     </main>
 
     <!-- Footer Content -->
-    <footer class="footer-sm">
+    <footer>
         <!-- Social Media -->
-        <div class="block-lg go-right">
+        <div class="socialFooter">
             <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
             <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
         </div>
-        <p style="text-align: center; display:block; padding-left: 10%">&copy; Copyright 2020 Dillon Fisher</p>  <!--style="padding-top: 1em; position: page; text-align: center"-->
+        <p>&copy; Copyright 2020 Dillon Fisher</p>  <!--style="padding-top: 1em; position: page; text-align: center"-->
     </footer>
 </body>
 </html>
+<script src="js/JavaScript.js"></script>

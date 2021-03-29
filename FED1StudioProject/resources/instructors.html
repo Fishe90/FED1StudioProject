@@ -9,79 +9,88 @@
 
     <!-- Below is a link to Social Media Icons on FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="/css/custom.css" rel="stylesheet" />
+    <link href="../css/shoeshine.css" rel="stylesheet" />
 
 </head>
 <body>
-    <header>
-        <div class="headerLogo">
-            <img src="/images/Logo_NO_BACKGROUND.png" />
-            <h1>Summit University</h1>
-            <p>"Education of Today to improve Tomorrow"</p>
-        </div>
-
+    <!-- Header -->
+    <header class="head-md">
         <!-- Social Media -->
-        <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
-
+        <div class="block-lg go-right">
+            <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
+        </div>
+        <div class="go-left">
+            <img src="../images/Logo_NO_BACKGROUND.png" />
+        </div>
+        <div class="block-md-6">
+            <h1>Summit University</h1> <!--style="border: 2px solid black"-->
+            <p>"Education of Today for the improvement of Tomorrow"</p>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/classes.html">CLASSES</a></li>
-            <li>
-                <a href="/team.html">TEAM</a>
-                <!--<div class="dropdown"><a style="color: white; border-left: solid white; border-right: solid white; background-image: radial-gradient(transparent, transparent, transparent, transparent, transparent, transparent, white);" href="/team.html">TEAM</a>
-                    <div class="dropdown-content">
-                        <a href="/team.html">Leadership</a>
-                        <a href="/resources/sales.html">Sales</a>
-                        <a href="/resources/administration.html">Administration</a>
-                        <a href="/resources/instructors.html">Instructors</a>
-                    </div>
-                </div>-->
-            </li>
-            <li><a href="/contact.html">CONTACT</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav id="navbar" class="nav-md left">
+        <a href="../index.html">HOME</a>
+        <a href="../classes.html">CLASSES</a>
+        <a href="../team.html" class="active">TEAM</a>
+        <a href="../contact.html">CONTACT</a>
     </nav>
 
-    <main>
-        <section class="allPage">
+    <main class="compress-md">
+        <section>
             <aside id="htmlRightColumn">
                 <h2>Departments</h2>
                 <ul class="asideList">
                     <li>
-                        <a href="/team.html" style="color:white; text-decoration: none;">Leaders</a>
+                        <a href="../team.html" style="color:white; text-decoration: none;">Leaders</a>
                     </li>
                     <li>
-                        <a href="/resources/sales.html" style="color:white; text-decoration: none;">Sales</a>
+                        <a href="../resources/sales.html" style="color:white; text-decoration: none;">Sales</a>
                     </li>
                     <li>
-                        <a href="/resources/administration.html" style="color:white; text-decoration: none;">Administration</a>
+                        <a href="../resources/administration.html" style="color:white; text-decoration: none;">Administration</a>
                     </li>
                     <li>
-                        <a href="/resources/instructors.html" style="color:white; text-decoration: none;">Instructors</a>
+                        <a href="../resources/instructors.html" style="color:white; text-decoration: none;">Instructors</a>
+                    </li>
+                </ul>
+            </aside>
+            <aside id="asideMenu-collapse">
+                <h2>Departments</h2>
+                <ul>
+                    <li>
+                        <a href="../team.html">Leaders</a>
+                    </li>
+                    <li>
+                        <a href="../resources/sales.html">Sales</a>
+                    </li>
+                    <li>
+                        <a href="../resources/administration.html">Administration</a>
+                    </li>
+                    <li>
+                        <a href="../resources/instructors.html">Instructors</a>
                     </li>
                 </ul>
             </aside>
             <article class="teamInfo">
                 <h2>Instructors</h2>
-                <img class="profilePic" src="/images/blank_profile.png" />
+                <img class="profilePic" src="../images/12_Profile.jpg" style="object-fit: cover" />
+                <h3>IT Director</h3>
                 <p>
-                    IT Director:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
                 <br /><br /><br /><br /><br />
-                <img class="profilePic" src="/images/blank_profile.png" />
+                <img class="profilePic" src="../images/11_Profile.jpg" style="object-fit: cover" />
+                <h3>IT Manager</h3>
                 <p>
-                    IT Manager:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
                 <br /><br /><br /><br /><br />
-                <img class="profilePic" src="/images/blank_profile.png" />
+                <img class="profilePic" src="../images/10_Profile.jpg" style="object-fit: cover" />
+                <h3>Tech Operations Officer</h3>
                 <p>
-                    Tech Operations Officer:<br />
                     Spicy jalapeno bacon ipsum dolor amet ball tip nulla minim, tempor pastrami pork loin tri-tip dolor tenderloin jowl nostrud. Nostrud ball tip turducken, venison alcatra ut meatloaf tongue elit pork belly aute pariatur ribeye. Ut chuck lorem cillum, do aute nulla ribeye venison pariatur jerky. Ribeye corned beef ut est.
                 </p>
             </article>
@@ -89,15 +98,16 @@
         </section>
     </main>
 
-    <footer>
-        <div id="footerLogo">
-            <p style="padding-top: 1em; position: page; text-align: center">&copy; Copyright 2020 Dillon Fisher</p>
-            <div class="footerSocial">
-                <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
-                <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
-            </div>
+    <!-- Footer Content -->
+    <footer class="footer-sm">
+        <!-- Social Media -->
+        <div class="block-lg go-right">
+            <a href="https://twitter.com/weteachstuff?lang=en" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.facebook.com/learnwithus" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/learnwithus" class="fa fa-linkedin" target="_blank"></a>
         </div>
+        <p style="text-align: center; display:block; padding-left: 10%">&copy; Copyright 2020 Dillon Fisher</p>  <!--style="padding-top: 1em; position: page; text-align: center"-->
     </footer>
 </body>
 </html>
+<script src="js/JavaScript.js"></script>
